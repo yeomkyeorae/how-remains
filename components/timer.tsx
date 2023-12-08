@@ -34,8 +34,8 @@ export default function Timer({ targetTime }: { targetTime: number }) {
 
   return (
     <div className='flex flex-col items-center'>
-      <h1 className='font-bold text-3xl'>Double D is coming!</h1>
-      <Image src='/dd.jpg' alt='Let us see occasionally' width={300} height={500}/>
+      <h1 className='font-bold text-3xl'>염겨레님의 퇴근은...</h1>
+      <Image src='/main.jpg' alt='Let us see occasionally' width={300} height={500}/>
       <p>
         <span className='font-bold text-red-600'>{`${timeLeft.hours}`}</span>시간
         <span className='font-bold text-red-600'>{` ${timeLeft.minutes}`}</span>분
